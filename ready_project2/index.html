@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="model-form">
+        <h1>LOGIN TO SEE MORE</h1>
+        <div>
+            <input type="text" name="first" placeholder="First Name">
+            <input type="text" placeholder="Second Name">
+        </div>
+        <div>
+            <input type="email" class="email_pass" placeholder="Email">
+            <input type="password" class="email_pass" placeholder="Password">
+        </div>
+        <div>
+            <button id="close">Close</button>
+            <button>Log In</button>
+        </div>
+    </div>
+    <nav>
+        <div>
+            <a href=""><img src="images/zara-1.jpeg" alt=""></a>
+            <button id="nav-toggle" class="top-a" href="">MAIN MENU</button>
+        </div>
+        <div id="top-searchbar">
+            <input type="search" name="" id="">
+            <button id="login">LOG IN</button>
+            <button>SIGN UP</button>
+        </div>
+    </nav>
+    <div id="catergories">
+        <ul>
+            <li><button style="background-color: transparent; border: none; font-size: 15px;" href=""
+                    id="men-toggle">MEN</button></li>
+            <li><button style="background-color: transparent; border: none; font-size: 15px;" href=""
+                    id="women-toggle">WOMEN</button></li>
+            <li><a href="">KIDS</a></li>
+            <li><button style="background-color: transparent; border: none; font-size: 15px;"
+                    id="community-btn">COMMUNITY</button></li>
+        </ul>
+    </div>
+    <div id="men">
+        <div>
+            <ul>
+                <li><a href="">FOOTWARE</a></li>
+                <li><a href="">Sports</a></li>
+                <li><a href="">casual</a></li>
+                <li><a href="">sneakers</a></li>
+            </ul>
+            <ul>
+                <li><a href="">ACCESSORIES</a></li>
+                <li><a href="">Sports</a></li>
+                <li><a href="">casual</a></li>
+                <li><a href="">sneakers</a></li>
+            </ul>
+            <ul>
+                <li><a href="">UPPER</a></li>
+                <li><a href="">Sports</a></li>
+                <li><a href="">casual</a></li>
+                <li><a href="">sneakers</a></li>
+            </ul>
+            <ul>
+                <li><a href="">LOWER</a></li>
+                <li><a href="">Sports</a></li>
+                <li><a href="">casual</a></li>
+                <li><a href="">sneakers</a></li>
+            </ul>
+        </div>
+    </div>
+    <div id="women">
+        <div>
+            <ul>
+                <li><a href="">UPPER</a></li>
+                <li><a href="">Sports</a></li>
+                <li><a href="">casual</a></li>
+                <li><a href="">sneakers</a></li>
+            </ul>
+            <ul>
+                <li><a href="">ACCESSORIES</a></li>
+                <li><a href="">Sports</a></li>
+                <li><a href="">casual</a></li>
+                <li><a href="">sneakers</a></li>
+            </ul>
+            <ul>
+                <li><a href="">FOOTWARE</a></li>
+                <li><a href="">Sports</a></li>
+                <li><a href="">casual</a></li>
+                <li><a href="">sneakers</a></li>
+            </ul>
+            <ul>
+                <li><a href="">LOWER</a></li>
+                <li><a href="">Sports</a></li>
+                <li><a href="">casual</a></li>
+                <li><a href="">sneakers</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="front">
+        <div>
+            <h1>ZARA FASHION</h1>
+            <h1>BRINGS TO YOU</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, delectus.</p>
+            <button>SHOP</button>
+        </div>
+    </div>
+    <div id="community">
+        <h4>PEACE UP</h4>
+        <h1>JOIN OUR COMMUNITY</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, earum.</p>
+        <button>EXPLORE MORE</button>
+    </div>
+    <div id="crousel">
+        <div class="crousel-item">
+            <img src="images/c1.jpg" alt="">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta, fugiat!</p>
+        </div>
+        <div class="crousel-item">
+            <img src="images/c2.jpg" alt="">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta, fugiat!</p>
+        </div>
+        <div class="crousel-item">
+            <img src="images/c3.jpg" alt="">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta, fugiat!</p>
+        </div>
+        <button id="greater" onclick="controller(1)">&gt</button>
+        <button id="lesser" onclick="controller(-1)">&lt</button>
+    </div>
+
+    <section class="last" style="display: flex; flex-direction: column; margin-top: 50px;">
+        <div id="footer" style="display: flex; justify-content: space-around; padding: 20px;">
+            <div class="first">
+                <ul>
+                    <li>Services</li>
+                    <li>Experience Audi</li>
+                    <li>Audi AG</li>
+                </ul>
+            </div>
+            <div class="second">
+                <ul class="sec">
+                    <li class="secd"><a>Myaudi</a></li>
+                    <li class="secd"><a>Models&Technology</a></li>
+                    <li class="secd3"><a>Investor relations</a></li>
+                </ul>
+            </div>
+            <div class="third">
+                <ul class="thi">
+                    <li class="thir"><a>Myaudi</a></li>
+                    <li class="thir"><a>Mobility&Trend.......</a></li>
+                    <li class="thir3"><a>Sustainability</a></li>
+                </ul>
+            </div>
+            <div class="forth">
+                <ul class="for">
+                    <li class="fort"><a>Contest</a></li>
+                    <li class="fort"><a>Innovation&Lifestyle</a></li>
+                    <li class="fort3"><a>Career</a></li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <div class="lastpara">
+            <p class="last1">* The specified fuel consumption and emission data have been determined according to the
+                measurement procedures prescribed by law. Since 1st September 2017, certain new vehicles are already
+                being type-approved according to the Worldwide Harmonized Light Vehicles Test Procedure (WLTP), a more
+                realistic test procedure for measuring fuel consumption and CO2 emissions. Starting on September 1st
+                2018, the New European Driving Cycle (NEDC) will be replaced by the WLTP in stages. Owing to the more
+                realistic test conditions, the fuel consumption and CO2 emissions measured according to the WLTP will,
+                in many cases, be higher than those measured according to the NEDC. Therefore, the usage of CO2 emission
+                values measured according to WLTP for vehicle taxation from 1st September 2018 on can cause changes in
+                this regards as well. For further information on the differences between the WLTP and NEDC, please visit
+                www.audi.de/wltp.</p>
+            <p class="last2">We are currently still required by law to state the NEDC figures. In the case of new
+                vehicles which have been type-approved according to the WLTP, the NEDC figures are derived from the WLTP
+                data. It is possible to specify the WLTP figures voluntarily in addition until such time as this is
+                required by law. In cases where the NEDC figures are specified as value ranges, these do not refer to a
+                particular individual vehicle and do not constitute part of the sales offering. They are intended
+                exclusively as a means of comparison between different vehicle types. Additional equipment and
+                accessories (e.g. add-on parts, different tire formats, etc.) may change the relevant vehicle
+                parameters, such as weight, rolling resistance and aerodynamics, and, in conjunction with weather and
+                traffic conditions and individual driving style, may affect fuel consumption, electrical power
+                consumption, CO2 emissions and the performance figures for the vehicle.</p>
+            <p class="last3">
+                Further information on official fuel consumption figures and the official specific CO2 emissions of new
+                passenger cars can be found in the “Guide on the fuel economy, CO2 emissions and power consumption of
+                new passenger car models”, which is available free of charge at all sales dealerships and from DAT
+                Deutsche Automobil Treuhand GmbH, Hellmuth-Hirth-Str. 1, D-73760 Ostfildern, Germany and at www.dat.de.
+            </p>
+        </div>
+    </section>
+    <script src="script.js"></script>
+
+</body>
+
+</html>

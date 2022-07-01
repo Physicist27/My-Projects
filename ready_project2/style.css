@@ -1,0 +1,372 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    /* background-color: #080b13; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+button{
+    cursor: pointer;
+}
+nav a>img{
+    width: 8.125rem;
+    height: 3.1rem;
+}
+nav>div{
+    display: flex;
+}
+nav>div a{
+    color: black;
+    padding: 10px;
+    margin: 0px 5px;
+}
+nav>div button{
+    background-color: transparent;
+    border: none;
+}
+.top-a{
+    color: black;
+    padding: 8px;
+    margin: 0px 5px;
+    padding: 25px 0px 0px 0px;
+    font-size: 1.6rem;
+}
+#top-searchbar{
+    margin-top: 10px;
+}
+#top-searchbar input{
+    width: 15rem;
+    height: 1.8rem;
+    margin: 20px 0px 0px 0px;
+}
+#top-searchbar button{
+    width: 5rem;
+    height: 1.8rem;
+    margin: 20px 1px 0px 10px;
+    background-color: white;
+    color: black;
+    border: none;
+
+}
+
+#catergories{
+    padding: 10px 0px;
+    background-color: #fcfbfc;
+}
+#catergories ul{
+    display: flex;
+    margin: auto;
+    width: 400px;
+}
+#catergories ul li{
+    margin: auto;
+}
+#catergories ul li a{
+    color: black;
+}
+#women{
+    text-overflow: hidden;
+    margin: 20px 0px 0px 100px;
+    z-index: 99999;
+    margin-top: -320px;
+    position: absolute;
+    background-color: white;
+}
+#women>div{
+    display: flex;
+    margin: auto;
+    width: fit-content;
+}
+#women ul{
+    margin: 30px;
+}
+#women ul li{
+    margin: 10px 20px;
+}
+#women ul li:nth-child(1){
+    margin: 20px;
+}
+#women ul li a{
+    color: black;
+}
+#men{
+    text-overflow: hidden;
+    margin: 20px 0px 0px 100px;
+    z-index: 99999;
+    margin-top: -320px;
+    position: absolute;
+    background-color: white;
+}
+#men>div{
+    display: flex;
+    margin: auto;
+    width: fit-content;
+}
+#men ul{
+    margin: 30px;
+}
+#men ul li{
+    margin: 10px 20px;
+}
+#men ul li:nth-child(1){
+    margin: 20px;
+}
+#men ul li a{
+    color: black;
+}
+#front{
+    background-image: url("images/3999327.webp");
+    background-position: center;
+    background-size: cover;
+;
+    /* border: 2px solid red; */
+}
+#front>div{
+    width: fit-content;
+    padding: 300px 20px;
+    height: fit-content;
+    /* border: 2px solid red; */
+
+}
+#front h1{
+    font-size: 70px;
+    font-weight: 3000;
+    letter-spacing: 5px;
+}
+#front p{
+    font-size: 20px;
+}
+#front button{
+    margin: 10px 0px;
+    width: 100px;
+    height: 30px;
+    font-size: 17px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+
+#community{
+    padding: 100px 0px;
+    text-align: center;
+}
+#community h1{
+    font-size: 50px;
+    letter-spacing: 5px;
+}
+#community button{
+    margin: 20px 0px;
+    font-size: 16px;
+    width: 160px;
+    height: 33px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+
+#model-form{
+    position: fixed;
+    height: 100vh;
+    width: 500px;
+    margin: auto;
+    width: 1000vh;
+    background-color: rgba(0,0,0,0.5);
+    padding: 200px 500px;
+    opacity:0;
+    pointer-events: none;
+}
+#model-form h1{
+    color: white;
+    margin: 10px;
+    letter-spacing: 3px;
+}
+#model-form>div{
+    display: flex;
+}
+.email_pass{
+    margin: 10px 10px;
+    height: 30px;
+    border: none;
+    background-color: white;
+    border-radius: 10px;
+    padding: 0px 5px;
+}
+#model-form>div input{
+    margin: 10px 10px;
+    width: 250px;
+    height: 30px;
+    border: none;
+    background-color: white;
+    border-radius: 10px;
+    padding: 0px 5px;
+}
+#model-form>div button{
+    margin: 0px 10px;
+    width: 120px;
+    height: 30px;
+    border-radius: 10px;
+    font-size: 17px;
+    border: none;
+}
+/* TOGGLE NAVBAR */
+
+
+body{
+    text-overflow: hidden;
+}
+#toggle-navbar{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    width: fit-content;
+    height: 670px;
+    box-shadow: 2px 2px 2px 2px rgb(229, 226, 226);
+    /* border: 2px solid red; */
+    transition: all 0.5s;
+    margin-left: -237px;
+    z-index: 99999;
+}
+.appear{
+    margin-left: 0px;
+}
+#toggle-navbar a{
+    padding: 30px;
+    color: black;
+}
+#toggle-navbar ul{
+    padding: 30px;
+}
+#toggle-navbar ul li{
+    margin: 10px 0px;
+}
+#mid{
+    height: 100vh;
+    background-image: url('images/hyunwon-jang-niXUOj_ypuk-unsplash.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+#crousel{
+    position: relative;
+}
+.crousel-item{
+    text-align: center;
+
+}
+.crousel-item>img{
+    height: 700px;
+    width: 100%;
+}
+.crousel-item p{
+    position: absolute;
+    bottom: 20px;
+    left: 400px;
+    font-size:25px;
+    color: white;
+    font-weight: 2000;
+}
+#crousel button{
+    position: absolute;
+    top: 350px;
+    width: 65px;
+    height: 50px;
+    font-size: 30px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 0px;
+}
+#greater{
+    right: 0px;
+}
+#lesser{
+
+}
+.crousel-item{
+    display: none;
+}
+
+.last{
+    color: black;
+}
+.first ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-direction: column;
+
+}
+.first ul li{
+    list-style: none;
+    font-size: 15px;
+}
+.second ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-direction: column;
+
+}
+.second ul li{
+    list-style: none;
+    font-size: 15px;
+}
+
+.third ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-direction: column;
+}
+.third ul li{
+    list-style: none;
+    font-size: 15px;
+}
+.forth{
+}
+.forth ul{
+    display: flex;
+    flex-direction: row;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.forth ul li{
+list-style: none;
+font-size: 15px;
+}
+.last1{
+padding: 30px;
+font-size: 17px;
+}
+.last2{
+padding: 30px;
+font-size: 17px;
+}
+.last3{
+padding: 30px;
+font-size: 17px;
+}
+
+@media(max-width:750px){
+    #nav-toggle{
+        display: none;
+    }
+}
+@media(max-width:650px){
+    html{
+        font-size: 10px;
+    }
+    .crousel-item>img{
+        height: 500px;
+        width: 100%;
+    }
+}
